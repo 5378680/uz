@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - 個人介紹</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html>
+
+<head>
+  <title>UZ的個人網站</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@100;500&display=swap" rel="stylesheet">
+  
+</head>
+
+  
+  
+  
+  
+  
+
+<body>
+  
+    <!-- 卡片開始 -->
+  <div class="tilt tilt-logo" data-tilt data-tilt-glare="true" data-tilt-scale="1.00">
+    <span class="tilt-logo-inner">
+      <img src="https://upload.cc/i1/2021/06/29/VTKC84.jpg">
+      <hr>
+      <span class="card-text">
+      大家好，我是柚子，簡稱uz，也可以叫我白修，今年20歲，
+      喜歡收藏遊戲、圖片、音樂，最近熱衷於投資。
+      </span>
+      <hr>
+      <br>
+      <div class="logo-link">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-sm-4">
+              <a href="https://www.facebook.com/profile.php?id=100003355465588" target="_blank"><img src="https://upload.cc/i1/2021/06/29/FvmnHC.png"></a>
+            </div>
+            <div class="col-sm-4">
+              <a href="https://www.instagram.com/xiu.bai/" target="_blank"><img src="https://upload.cc/i1/2021/06/29/RvbePg.png"></a>
+            </div>
+            <div class="col-sm-4">
+              <div class="qq">
+                <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#myModal">
+                  030
+                </button>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </span>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+  </script>
+  <script src="https://unpkg.com/tilt.js@1.1.21/dest/tilt.jquery.min.js">
+  </script>
+  <!-- 卡片結束 -->
+  
+  
+  <div class="wrapper">
+      <!--左側邊導覽-->
+      <div class="sideNav-left">
+        <div class="title">
+          UZ的個人網站
+        </div>
+        <br>
+        <a href="#" id="nav-home">HOME</a>
+        <a href="#" id="nav-games">GAME</a>
+        <a href="#" id="nav-blog">BLOG</a>
+        <a href="#" id="nav-webs">Website</a>
+        <a href="#" id="nav-git">GitHub</a>
+        <div class="eyny1"><p id="eyny" style="display:none;color:orange"><a  href="http://www123.eyny.com/home.php?mod=space&uid=14311734&do=thread&view=me&order=dateline&from=space&page=D2WYCF2W" target="_blank">我的遊戲發布網址</div></a></p>
+        <br>
+        <script>
+          /*檢測按鍵按下 利用矩陣實現連續判定*/
+            var keys = [];           //store in an array (list) 
+            document.onkeydown=function(e){
+keys[keys.length] = e.keyCode;
+if(keys[keys.length-10]==38 && keys[keys.length-9]==38 && keys[keys.length-8]==40 && keys[keys.length-7]==40 && keys[keys.length-6]==37 && keys[keys.length-6]==37 && keys[keys.length-5]==39 && keys[keys.length-4]==37 && keys[keys.length-3]==39 && keys[keys.length-2]==66 && keys[keys.length-1]==65){
+    eyny.style.display = "block";  
+    } 
+}
+        </script>
+
+      </div>
+      
+      <div class="middle">
+        <div class="middle-white">
+      <!--中間內容區塊-->
+          <div id="middleContent"> 
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-sm-1">
+              
+            </div>
+            <div class="col-sm-10"> 
+              <div class="rowsize">
+                <hr>
+                <iframe src="../html/home.html" id="iMiddleContent" class="" frameborder="0"> 
+                </iframe>
+
+              </div>
+            </div>
+            <div class="col-sm-1">
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+        </div>
+      </div>
+  
+ </div>
+
+  
+  
+
+  
+  
+  
+
+
+  <!-- 彈跳視窗 -->
+<div class="modal" id="myModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">我只是想試試看</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+          <p>唷。密技:上上下下左右左右BA  </p>
+          <p>左下角會有神祕通道</p>
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  
+  
+  
+  <!-- 底欄開始 -->
+  <footer class="center">
+    <p> website create by: uz  </p>
+  </footer>
+  <!-- 底欄結束 -->
+    
+  
+  
+</body>
+
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
